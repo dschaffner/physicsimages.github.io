@@ -1,11 +1,11 @@
 # physicsimages.github.io
 A site to post physics images to test the GitHub contribution cycle
 
-### What is catpage?
+### What is physicsimages?
 
-Catpage is a silly, simple page for practicing the basics of using git/github.
+Physicsimages is a silly, simple page for practicing the basics of using git/github.
 
-### How do I add a cat to catpage?
+### How do I add an image to physicsimages?
 
 Steps:
 
@@ -19,7 +19,7 @@ Get the url from your fork's main page (see [github docs](https://docs.github.co
 
 #### 3. add a remote to the upstream repository 
 
-In your terminal type `git remote add upstream git@github.com:catpage/catpage.github.io.git`
+In your terminal type `git remote add upstream git@github.com:dschaffner/physicsimages.github.io.git`
 
 #### 4. make a branch for your changes with either:
 
@@ -36,9 +36,9 @@ or do both steps at once with:
 made a change here
 Find a cat image. If you want to save a local copy of the image, put it in the `images` directory and give it a human readable name.
 
-Then, in `index.html` add the following code somewhere amidst the other cat images:
+Then, in `index.html` add the following code somewhere amidst the other physics images:
 
-    <div class="catpic">
+    <div class="physpic">
     <a href=""><img src="" title="" alt=""></a>
     </div>
 
